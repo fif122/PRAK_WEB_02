@@ -1,0 +1,109 @@
+/* Style the header */
+.header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+/* Navigation #3399ff */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 2px solid #e6e6e6;
+    background-color:#e6e6e6;
+}
+
+.navigasi{
+    margin: 0px 200px;
+}
+.navigasi li {
+    float: left;
+}
+.navigasi li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigasi li a:hover:not(.active) {
+    background-color: #e6f2ff;
+}
+.navigasi li a.active {
+    color: white;
+    background-color: #0080ff ;
+}
+
+
+/* Isi */
+div.wrapper {
+    margin: 20px 210px;
+    margin-right: 90px;
+}
+.isi {
+    height: 320px;
+    margin: 10px;
+    border: 3px solid #d9d9d9;
+    float: left;
+    width: 200px;
+}
+.isi:hover {
+    border: 3px solid #0080ff;
+}
+
+.isi img {
+    width: 100%;
+    height: auto;
+}
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Isi, Font Size*/
+.a{
+    font-size: 20px;
+    color: black;
+}
+.b{
+    font-size: 15px;
+    color: #4d4d4d;
+}
+.c{
+    font-size: 20px;
+    color: #0073e6;
+    margin-top: 25px;
+}
+
+/* More Tombol */
+.more {
+    overflow: hidden;
+    width: 98%;
+    text-align: center;
+    padding: 14px 16px;
+}
+.more a:link, .more a:visited {
+    background-color: #0080ff;
+    border: 2px solid #0080ff;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.more a:hover, .more a:active {
+    border: 2px solid  #bfbfbf;
+    background-color: white;
+    color: #bfbfbf;
+}
+
+/*Table*/
+table{
+    border-collapse: collapse;
+    width: 30%;
+}
